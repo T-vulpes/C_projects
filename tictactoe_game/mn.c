@@ -1,16 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Global variable to control header printing
 int headerPrinted = 0;
 
-// Function to print the game board
 void printBoard(char board[3][3]) {
-    system("clear");  // Clear the console for better interface
+    system("clear");  
     if (!headerPrinted) {
         printf("Tic Tac Toe Game\n");
         printf("Player 1 (X)  -  Player 2 (O)\n\n");
-        headerPrinted = 1; // Set flag to indicate header has been printed
+        headerPrinted = 1; 
     }
     
     int i, j;
@@ -26,10 +24,8 @@ void printBoard(char board[3][3]) {
     printf("\n");
 }
 
-// Function to check for a win
 int checkWin(char board[3][3]) {
     int i;
-    // Check rows and columns
     for (i = 0; i < 3; i++) {
         if (board[i][0] == board[i][1] && board[i][1] == board[i][2] && board[i][0] != ' ')
             return 1;
