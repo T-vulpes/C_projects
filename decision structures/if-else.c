@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
     
-    // if-else structure
     int number;
     printf("Enter a number: ");
     scanf("%d", &number);
@@ -16,7 +14,6 @@ int main(int argc, char *argv[]) {
     }
     
     printf("\n\n\n");
-    // Based on the entered degree, determine the state of water: solid, liquid, gas
     printf("*****WATER STATE*****\n\n");
     printf("Enter the temperature of the water: ");
     float degree;
@@ -35,7 +32,6 @@ int main(int argc, char *argv[]) {
     
     printf("\n\n\n");
     
-    // Based on the entered exam and project scores, determine the student's grade
     printf("*****STUDENT'S GRADE STATUS*****\n\n");
     int exam1, exam2, exam3, project1, average;
     
