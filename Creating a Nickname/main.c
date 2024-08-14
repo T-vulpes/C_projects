@@ -45,7 +45,6 @@ int main() {
     printf("Enter your birth year: ");
     scanf("%d", &birthYear);
 
-    // Takma adý oluþtur ve yazdýr
     generateNickname(firstName, favoriteColor, birthYear);
 
     return 0;
