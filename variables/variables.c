@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
     
@@ -14,7 +13,6 @@ int main(int argc, char *argv[]) {
     difference = num1 - num2;
     printf("The sum of the entered numbers = %d \n The product of the entered numbers = %d \n The quotient of the entered numbers = %d \n The difference of the entered numbers = %d \n\n\n", sum, product, quotient, difference);
     
-    // Example of using int with user input;
     int grade1, grade2, grade3, average;
     printf("Enter your first exam grade: ");
     scanf("%d", &grade1);
@@ -30,7 +28,6 @@ int main(int argc, char *argv[]) {
     
     printf("\n\n\n\n");
     
-    // Cinema
     printf("*****CINEMA PRICING*****\n");
     int popcorn, soda, water, ticket, debt;
     printf("Enter the number of popcorns you bought: ");
