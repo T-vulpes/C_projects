@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 int main() {
-// scanf = for user input situations = does not take values after space, it is more appropriate to use for single-word inputs
     char firstName[10], lastName[15], age[2], city[13], occupation[10];
     
     printf("Enter your first name: ");
