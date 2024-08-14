@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
     int num1, num2, result;
     char operation;
 
 int main() {
-// switch-case 
     int month;
     printf("Enter the month number:");
     scanf("%d", &month);
@@ -28,7 +26,6 @@ int main() {
         default : printf("Invalid number entry :( Please enter the value again"); break;
     }
     printf("\n\n\n");
-// switch-case example:
 
     printf("Enter the first number:");
     scanf("%d", &num1);
