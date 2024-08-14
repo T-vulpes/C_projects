@@ -1,11 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main() {
-    // Hand luggage weight limit is 8 kg, baggage weight limit is 15 kg. 
-    // Additional charges: 4 TL per kg for hand luggage, 5 TL per kg for baggage
     int normal, hand, normalCharge, handCharge, totalCharge;
     printf("Hand luggage weight (kg): ");
     scanf("%d", &hand);
@@ -60,7 +57,6 @@ int main() {
     printf("\n\n");
     
     // Question 3 placeholder
-    // Insert additional code for the third question here if needed
 
     return 0;
 }
