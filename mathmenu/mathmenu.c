@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>  // Include math.h for proper power functions
+#include <math.h>  
 
 int main() {
     printf("********************");
