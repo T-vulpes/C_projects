@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main() {
     int width, height, a, b;
@@ -17,7 +16,6 @@ int main() {
         printf("\n");
     }
     printf("\n\n\n");
-    // second example
     int n, i, k;
     printf("Enter the base value of the triangle:");
     scanf("%d", &n);
