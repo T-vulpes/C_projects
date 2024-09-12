@@ -26,11 +26,10 @@ int main() {
     
     printf("\n\n");
 
-    // Question 2: Sum of integers between two numbers
     int num1, num2, i;
     int sum = 0;
     
-    while (1) {  // Infinite loop until valid input is received
+    while (1) {  
         printf("Enter the first number: ");
         scanf("%d", &num1);
         printf("Enter the second number: ");
@@ -39,7 +38,7 @@ int main() {
         if (num1 == num2) {
             printf("Please enter different values!!\n");
         } else {
-            break;  // Exit loop if the numbers are different
+            break;  
         }
     }
 
@@ -56,8 +55,6 @@ int main() {
     printf("The sum of the integers between the entered values: %d", sum);
     printf("\n\n");
     
-    // Question 3 placeholder
-
     return 0;
 }
 
