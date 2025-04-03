@@ -29,10 +29,7 @@ int main() {
     char firstName[MAX_NAME_LENGTH];
     char favoriteColor[MAX_NAME_LENGTH];
     int birthYear;
-
-    
     srand(time(NULL));
-
    
     printf("Enter your first name: ");
     fgets(firstName, sizeof(firstName), stdin);
