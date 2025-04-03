@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 int main() {
+     // First example
     int width, height, a, b;
     printf("Enter the width value:");
     scanf("%d", &width);
@@ -16,6 +16,7 @@ int main() {
         printf("\n");
     }
     printf("\n\n\n");
+ // second example
     int n, i, k;
     printf("Enter the base value of the triangle:");
     scanf("%d", &n);
@@ -26,6 +27,7 @@ int main() {
         printf("\n");
     }
     printf("\n\n\n");
+    
     // third example
     int x, y, length;
     printf("Enter the base length:");
