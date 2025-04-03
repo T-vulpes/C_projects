@@ -16,7 +16,8 @@ int main() {
         printf("\n");
     }
     printf("\n\n\n");
- // second example
+     
+     // Second example
     int n, i, k;
     printf("Enter the base value of the triangle:");
     scanf("%d", &n);
@@ -27,8 +28,8 @@ int main() {
         printf("\n");
     }
     printf("\n\n\n");
-    
-    // third example
+
+    // Third example
     int x, y, length;
     printf("Enter the base length:");
     scanf("%d", &length);
