@@ -4,7 +4,6 @@
 #include <time.h>
 
 #define MAX_NAME_LENGTH 100
-
 const char *adjectives[] = {
     "Swift", "Brave", "Clever", "Mighty", "Silent", "Sly", "Fearless", "Noble",
     "Quick", "Wise", "Fierce", "Bold", "Gentle", "Loyal", "Proud", "Valiant"
