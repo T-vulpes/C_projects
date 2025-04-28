@@ -3,7 +3,6 @@
 
 int isArmstrong(int num) {
     int originalNum, remainder, result = 0, n = 0;
-
     originalNum = num;
     
     while (originalNum != 0) {
@@ -17,7 +16,6 @@ int isArmstrong(int num) {
         result += pow(remainder, n);
         originalNum /= 10;
     }
-
     return (result == num);
 }
 
