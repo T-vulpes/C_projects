@@ -43,7 +43,6 @@ int main() {
     scanf("%d", &birthYear);
 
     generateNickname(firstName, favoriteColor, birthYear);
-
     return 0;
 }
 
